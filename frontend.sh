@@ -8,6 +8,5 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 ls
 pwd
-cp expense.conf /etc/nginx/default.d/expense.conf
 systemctl  restart nginx
 
