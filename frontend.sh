@@ -1,7 +1,6 @@
-echo -e "\e[35mInstalling Nginx\e[0m"
+
 
 dnf install nginx -y
-echo exit status -$?
 
 systemctl enable nginx
 systemctl start nginx
